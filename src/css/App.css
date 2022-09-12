@@ -1,0 +1,18 @@
+.App {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  max-width: 400px;
+  margin: auto;
+  color: var(--header-text-color);
+}
+
+.App .flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.App p {
+  font-size: var(--primary-font-size);
+}
